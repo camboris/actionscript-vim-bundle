@@ -1,0 +1,7 @@
+ActionScript
+------------
+
+- added dictionary file from https://bitbucket.org/kuy/dotfiles/src/3eee70485be416cceab364cb2c929e3d606acb6a/vimfiles/dict/actionscript.dict?at=default
+use by adding this on .vimrc :
+
+autocmd FileType actionscript :set dictionary=~/.vim/bundle/actionscript-vim-bundle/dict/actionscript.dict
